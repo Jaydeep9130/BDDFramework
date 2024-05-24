@@ -1,0 +1,10 @@
+
+@DemoBlaze @DashboardDetailsCheck @UserStory_US123 @SIT
+Scenario Outline: Verify add product to cart functionality by adding given product                   [90m# src/test/resources/features/DemoBlaze.feature:13[0m
+  [33mGiven [0m[33mUser is logged into demoblaze website with username "SathishDemo" and password "SathishDemo"[0m
+  [36mThen [0m[36mUser verifies Username "SathishDemo" in dashboard[0m
+  [36mThen [0m[36mUser adds "Apple monitor 24" to cart and verifies[0m
+
+@DemoBlaze @loginFlipkart
+Scenario Outline: Login into flipkart website                                                         [90m# src/test/resources/features/DemoBlaze.feature:21[0m
+  [33mGiven [0m[33mUser launches Flipkart application and loggs in with Username "Sathish" and Password "123456"[0m

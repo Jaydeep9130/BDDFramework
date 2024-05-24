@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" data-provider-thread-count="1" name="Failed suite [Run Cucumber TestNG]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.jaydeep.framework.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test for Web Application SKinny Ties(failed)">
+    <parameter name="BrowserName" value="CHROME"/>
+    <parameter name="ExecutionMode" value="LOCAL"/>
+    <classes>
+      <class name="com.jaydeep.runners.RunnerWebApp">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.jaydeep.runners.RunnerWebApp -->
+    </classes>
+  </test> <!-- Test for Web Application SKinny Ties(failed) -->
+</suite> <!-- Failed suite [Run Cucumber TestNG] -->

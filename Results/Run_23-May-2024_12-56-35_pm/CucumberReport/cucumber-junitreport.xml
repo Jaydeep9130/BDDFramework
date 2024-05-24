@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.627" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Validate Add to cart functionality in DemoBlaze website" name="Verify add product to cart functionality by adding given product - Example #1.1" time="51.186">
+<system-out><![CDATA[
+Given User is logged into demoblaze website with username "SathishDemo" and password "SathishDemo".passed
+Then User verifies Username "SathishDemo" in dashboard......................passed
+Then User adds "Apple monitor 24" to cart and verifies......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Add to cart functionality in DemoBlaze website" name="Login into flipkart website - Example #1.1" time="1.054">
+<system-out><![CDATA[
+Given User launches Flipkart application and loggs in with Username "Sathish" and Password "123456".passed
+]]></system-out>
+</testcase>
+</testsuite>

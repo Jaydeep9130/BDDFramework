@@ -1,0 +1,34 @@
+
+@DemoBlaze @DashboardDetailsCheck @UserStory_US123 @SIT
+Scenario Outline: Verify add product to cart functionality by adding given product                   [90m# src/test/resources/features/DemoBlaze.feature:13[0m
+  [31mGiven [0m[31mUser is logged into demoblaze website with username [0m[31m[1m"SathishDemo"[0m[31m and password [0m[31m[1m"SathishDemo"[0m [90m# com.cognizant.steps.DemoBlazeStepDef.user_is_logged_into_demoblaze_website_with_username_and_password(java.lang.String,java.lang.String)[0m
+      [31morg.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=124.0.6367.61)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5cc54ae8bbda3d751090bc43a2ad7ec, get {url=http://10.120.101.36:4200/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55221}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55221/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5cc54ae8bbda3d751090bc43a2ad7ec
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.cognizant.steps.DemoBlazeStepDef.user_is_logged_into_demoblaze_website_with_username_and_password(DemoBlazeStepDef.java:37)
+	at ✽.User is logged into demoblaze website with username "SathishDemo" and password "SathishDemo"(file:///C:/Users/Dell/OneDrive/Desktop/java%20practice/Ajay%20Practice/com.ajay.testng/src/test/resources/features/DemoBlaze.feature:7)
+[0m
+  [36mThen [0m[36mUser verifies Username [0m[36m[1m"SathishDemo"[0m[36m in dashboard[0m                                             [90m# com.cognizant.steps.DemoBlazeStepDef.user_verifies_username_in_dashboard(java.lang.String)[0m
+  [36mThen [0m[36mUser adds [0m[36m[1m"Apple monitor 24"[0m[36m to cart and verifies[0m                                             [90m# com.cognizant.steps.DemoBlazeStepDef.user_adds_monitor_to_cart_and_verifies(java.lang.String)[0m
+
+@DemoBlaze @loginFlipkart
+Scenario Outline: Login into flipkart website                                                         [90m# src/test/resources/features/DemoBlaze.feature:21[0m
+  [32mGiven [0m[32mUser launches Flipkart application and loggs in with Username [0m[32m[1m"Sathish"[0m[32m and Password [0m[32m[1m"123456"[0m [90m# com.cognizant.steps.DemoBlazeStepDef.user_launches_flipkart_application_and_loggs_in_with_username_and_password(java.lang.String,java.lang.String)[0m

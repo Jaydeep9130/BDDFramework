@@ -1,0 +1,16 @@
+
+@DemoBlaze @DashboardDetailsCheck @UserStory_US123 @SIT
+Scenario Outline: Verify add product to cart functionality by adding given product                   [90m# src/test/resources/features/DemoBlaze.feature:13[0m
+  [32mGiven [0m[32mUser is logged into demoblaze website with username [0m[32m[1m"SathishDemo"[0m[32m and password [0m[32m[1m"SathishDemo"[0m [90m# com.cognizant.steps.DemoBlazeStepDef.user_is_logged_into_demoblaze_website_with_username_and_password(java.lang.String,java.lang.String)[0m
+
+    Embedding null [image/png 502960 bytes]
+
+  [32mThen [0m[32mUser verifies Username [0m[32m[1m"SathishDemo"[0m[32m in dashboard[0m                                             [90m# com.cognizant.steps.DemoBlazeStepDef.user_verifies_username_in_dashboard(java.lang.String)[0m
+
+    Embedding null [image/png 237135 bytes]
+
+  [32mThen [0m[32mUser adds [0m[32m[1m"Apple monitor 24"[0m[32m to cart and verifies[0m                                             [90m# com.cognizant.steps.DemoBlazeStepDef.user_adds_monitor_to_cart_and_verifies(java.lang.String)[0m
+
+@DemoBlaze @loginFlipkart
+Scenario Outline: Login into flipkart website                                                         [90m# src/test/resources/features/DemoBlaze.feature:21[0m
+  [32mGiven [0m[32mUser launches Flipkart application and loggs in with Username [0m[32m[1m"Sathish"[0m[32m and Password [0m[32m[1m"123456"[0m [90m# com.cognizant.steps.DemoBlazeStepDef.user_launches_flipkart_application_and_loggs_in_with_username_and_password(java.lang.String,java.lang.String)[0m

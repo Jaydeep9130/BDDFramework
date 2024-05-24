@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.702" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Nj E Welth login" name="Verify the given login detailes - Example #1.1" time="32.531">
+<system-out><![CDATA[
+Given User is logged in nj e welth app Jaydeep9130..........................passed
+When Custmers logged in successfully........................................passed
+Then Click on Mutual fund button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

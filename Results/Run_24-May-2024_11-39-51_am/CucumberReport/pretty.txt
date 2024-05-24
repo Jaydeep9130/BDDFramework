@@ -1,0 +1,12 @@
+
+@njewelth
+Scenario Outline: Verify the given login detailes    [90m# src/test/resources/features/NjEWelth.feature:11[0m
+  [32mGiven [0m[32mUser is logged in nj e welth app [0m[32m[1mJaydeep9130[0m [90m# com.jaydeep.steps.NjEWealth.User_is_logged_in_nj_e_welth_app(java.lang.String)[0m
+
+    Embedding null [image/png 151144 bytes]
+
+  [32mWhen [0m[32mCustmers logged in successfully[0m               [90m# com.jaydeep.steps.NjEWealth.Custmers_logged_in_successfully()[0m
+
+    Embedding null [image/png 136784 bytes]
+
+  [32mThen [0m[32mClick on Mutual fund button[0m                   [90m# com.jaydeep.steps.NjEWealth.Click_on_Mutual_fund_button()[0m
